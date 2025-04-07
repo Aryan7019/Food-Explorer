@@ -70,7 +70,7 @@ const Home = () => {
         let page = 1;
         let hasMore = true;
         const allFetchedProducts = [];
-        const MAX_PAGES = 3;
+        const MAX_PAGES = 2;
 
         while (hasMore && page <= MAX_PAGES) {
           const response = await axios.get(
