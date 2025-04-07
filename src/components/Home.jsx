@@ -169,7 +169,7 @@ const Home = () => {
             <select
               value={sortOption}
               onChange={(e) => setSortOption(e.target.value)}
-              className="px-3 py-2 border rounded-lg text-gray-800 bg-white focus:ring-2 focus:ring-green-400 text-sm w-1/3 md:w-40 ml-auto"
+              className="px-3 py-2 border rounded-lg text-gray-800 bg-white focus:ring-2 focus:ring-green-400 text-sm w-1/4 md:w-40 ml-auto"
             >
               <option value="">Sort</option>
               <option value="name-asc">Name (A-Z)</option>
